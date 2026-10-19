@@ -69,6 +69,47 @@ direction. They indicate:
 - Responsive layouts that preserve hierarchy and readability on
   mobile.
 
+## 3.5 Git Workflow and Version Control
+
+Follow a structured Git workflow throughout development.
+
+### 1. Before Starting Work
+
+- Check the current Git branch and working tree status.
+- Inspect recent commits to understand the project's history.
+- Never overwrite, discard, or commit the user's unrelated changes.
+- Do not start a task if existing uncommitted changes could be affected without first understanding them.
+
+### 2. Branch Management
+
+- Keep `main` as the stable branch.
+- Before starting a new feature, create a dedicated branch from the latest appropriate base branch.
+- Use descriptive branch names with prefixes such as `feature/`, `fix/`, `refactor/`, or `docs/`.
+- Do not create a new branch for every minor action within the same task. Reuse the current task branch when appropriate.
+- Never switch branches if doing so could lose or disrupt uncommitted work.
+
+### 3. Commits
+
+- Create commits after completing meaningful, logically independent changes.
+- Use short, descriptive commit messages in English.
+- Prefer Conventional Commit prefixes, such as `feat:`, `fix:`, `refactor:`, `style:`, `docs:`, and `chore:`.
+- Before committing, review the diff and ensure no secrets, environment files, generated build output, or unrelated changes are included.
+- Run relevant checks before committing.
+- Never create empty commits or claim a commit succeeded unless Git confirms it.
+
+### 4. Push and Merge
+
+- Do not push branches to a remote repository unless the user has authorized remote pushes.
+- Do not merge feature branches into `main`, rebase shared branches, force-push, or rewrite published history without explicit user approval.
+- When a task is complete, report the branch name, commits created, checks performed, and whether the branch has been pushed or merged.
+- If a task requires a merge, explain the current state and request approval before performing it.
+
+### 5. Safety
+
+- Never use destructive Git commands, such as `git reset --hard`, `git clean -fd`, or force-push, without explicit user approval.
+- Preserve all user changes and investigate unexpected Git status results before proceeding.
+- If Git is unavailable or the repository is not initialized, report the issue and ask before initializing or changing repository setup.
+
 ### Reference palette
 
 Use these as the initial design tokens, matching the supplied color
