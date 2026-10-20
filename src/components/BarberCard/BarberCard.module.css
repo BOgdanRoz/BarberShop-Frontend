@@ -17,13 +17,6 @@
   height: 100%;
   object-fit: cover;
   object-position: center top;
-  transition: transform 500ms ease;
-}
-
-@media (hover: hover) {
-  .card:hover .image {
-    transform: scale(1.04);
-  }
 }
 
 .body {

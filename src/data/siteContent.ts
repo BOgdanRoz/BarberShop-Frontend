@@ -13,7 +13,6 @@ export const navItems: NavItem[] = [
   { id: 'barbers', label: 'Майстри' },
   { id: 'gallery', label: 'Галерея' },
   { id: 'portfolio', label: 'Роботи' },
-  { id: 'testimonials', label: 'Відгуки' },
 ]
 
 export const heroContent = {
@@ -70,10 +69,6 @@ export const galleryContent = {
 export const portfolioContent = {
   title: 'Наші роботи',
   lead: 'Добірка робіт наших майстрів: стрижки, догляд за бородою і чіткі лінії.',
-}
-
-export const testimonialsContent = {
-  title: 'Наші клієнти',
 }
 
 export const finalCtaContent = {

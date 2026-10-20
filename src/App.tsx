@@ -5,13 +5,14 @@ import Gallery from './sections/Gallery/Gallery'
 import Hero from './sections/Hero/Hero'
 import Portfolio from './sections/Portfolio/Portfolio'
 import Services from './sections/Services/Services'
-import Testimonials from './sections/Testimonials/Testimonials'
 import Footer from './components/Footer/Footer'
 import Header from './components/Header/Header'
+import SideDecor from './components/SideDecor/SideDecor'
 
 function App() {
   return (
-    <>
+    <div className="page">
+      <SideDecor />
       <a className="skip-link" href="#main">
         Перейти до вмісту
       </a>
@@ -23,11 +24,10 @@ function App() {
         <Barbers />
         <Gallery />
         <Portfolio />
-        <Testimonials />
         <FinalCta />
       </main>
       <Footer />
-    </>
+    </div>
   )
 }
 

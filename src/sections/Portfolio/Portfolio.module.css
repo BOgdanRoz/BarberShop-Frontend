@@ -1,39 +1,36 @@
 .section {
   background: var(--color-seal-brown);
   color: var(--color-seashell);
-  padding-block: clamp(3.5rem, 7vw, 5.5rem);
+  padding-block: clamp(3rem, 6vw, 4.5rem);
+  overflow: hidden;
 }
 
 .inner {
   width: min(100% - 2 * var(--gutter), var(--container-width));
   margin-inline: auto;
-}
-
-.carousel {
-  display: grid;
-  gap: 1.5rem;
-  justify-items: center;
-  outline-offset: 6px;
+  margin-bottom: clamp(2rem, 4vw, 2.75rem);
 }
 
 .viewport {
-  width: min(100%, 26rem);
   overflow: hidden;
-  position: relative;
-  box-shadow: 10px 10px 0 var(--color-lion);
 }
 
 .track {
   display: flex;
+  width: max-content;
   list-style: none;
   padding: 0;
   margin: 0;
-  transition: transform 450ms ease;
+  animation: conveyor 60s linear infinite;
+  will-change: transform;
 }
 
-.slide {
-  flex: 0 0 100%;
+.item {
+  flex: 0 0 auto;
+  height: clamp(15rem, 32vw, 24rem);
   aspect-ratio: 4 / 5;
+  margin-right: clamp(0.75rem, 1.5vw, 1.25rem);
+  overflow: hidden;
   background: var(--color-black-bean);
 }
 
@@ -43,40 +40,26 @@
   object-fit: cover;
 }
 
-.controls {
-  display: flex;
-  align-items: center;
-  gap: 1.25rem;
+@keyframes conveyor {
+  from {
+    transform: translateX(0);
+  }
+
+  to {
+    transform: translateX(-50%);
+  }
 }
 
-.control {
-  width: 3rem;
-  height: 3rem;
-  border: 1.5px solid var(--color-lion);
-  border-radius: 50%;
-  background: transparent;
-  color: var(--color-white);
-  font-size: 1.6rem;
-  line-height: 1;
-  cursor: pointer;
-  transition: background-color 200ms ease, color 200ms ease;
-}
+@media (prefers-reduced-motion: reduce) {
+  .track {
+    animation: none;
+  }
 
-.control:hover {
-  background: var(--color-lion);
-  color: var(--color-black-bean);
-}
-
-.counter {
-  min-width: 4.5rem;
-  text-align: center;
-  font-family: var(--font-display);
-  font-size: 1rem;
-  color: var(--color-seashell);
-}
-
-@media (min-width: 900px) {
   .viewport {
-    width: min(100%, 30rem);
+    overflow-x: auto;
+  }
+
+  .copy {
+    display: none;
   }
 }
