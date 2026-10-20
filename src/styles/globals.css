@@ -53,6 +53,11 @@ section[id] {
   scroll-margin-top: var(--header-height);
 }
 
+/* Each page section is a positioning context for its side ornaments. */
+main > section {
+  position: relative;
+}
+
 /* Positioning context for decorative side ornaments; clip prevents horizontal overflow without breaking sticky. */
 .page {
   position: relative;

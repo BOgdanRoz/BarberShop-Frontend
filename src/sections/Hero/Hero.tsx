@@ -2,10 +2,12 @@ import Button from '../../components/Button/Button'
 import { heroPhoto } from '../../data/photos'
 import { heroContent, instagramUrl } from '../../data/siteContent'
 import styles from './Hero.module.css'
+import SideDecor from '../../components/SideDecor/SideDecor'
 
 function Hero() {
   return (
-    <section id="top" className={styles.hero}>
+    <section id="top" className={styles.hero} data-header-theme="light">
+      <SideDecor seed={1} />
       <div className={styles.inner}>
         <div className={styles.content}>
           <p className={styles.eyebrow}>{heroContent.eyebrow}</p>

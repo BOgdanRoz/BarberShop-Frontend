@@ -2,26 +2,9 @@ import styles from './SideDecor.module.css'
 
 type OrnamentKind = 'razor' | 'comb' | 'scissors' | 'pole' | 'brush' | 'moustache' | 'clipper'
 
-interface Ornament {
-  kind: OrnamentKind
-  side: 'left' | 'right'
-  top: string
-  rotate: number
-  scale: number
-}
-
-// Positions are percentages of the page height. Ornaments sit in the side margins only.
-const ornaments: Ornament[] = [
-  { kind: 'razor', side: 'left', top: '7%', rotate: -18, scale: 1 },
-  { kind: 'comb', side: 'right', top: '15%', rotate: 12, scale: 0.9 },
-  { kind: 'pole', side: 'left', top: '26%', rotate: 0, scale: 0.8 },
-  { kind: 'scissors', side: 'right', top: '36%', rotate: 24, scale: 1 },
-  { kind: 'moustache', side: 'left', top: '48%', rotate: -6, scale: 0.9 },
-  { kind: 'brush', side: 'right', top: '58%', rotate: -8, scale: 0.85 },
-  { kind: 'clipper', side: 'left', top: '68%', rotate: -10, scale: 1 },
-  { kind: 'razor', side: 'right', top: '78%', rotate: 30, scale: 0.8 },
-  { kind: 'comb', side: 'left', top: '90%', rotate: 8, scale: 0.9 },
-]
+const kinds: OrnamentKind[] = ['razor', 'comb', 'scissors', 'pole', 'brush', 'moustache', 'clipper']
+const rotations = [-18, 12, 24, -6, -10, 30, 8, -8]
+const scales = [1, 0.85, 1.15, 0.95, 1.1]
 
 function OrnamentShape({ kind }: { kind: OrnamentKind }) {
   switch (kind) {
@@ -80,23 +63,36 @@ function OrnamentShape({ kind }: { kind: OrnamentKind }) {
   }
 }
 
+interface SideDecorProps {
+  seed: number
+}
+
+// Deterministic, irregular placement: 4 or 5 ornaments per section, alternating sides and varied motifs.
 // Decorative only: hidden from assistive technology and never receives pointer events.
-function SideDecor() {
+function SideDecor({ seed }: SideDecorProps) {
+  const count = seed % 2 === 0 ? 4 : 5
+  const step = 100 / (count + 1)
+
   return (
-    <div className={styles['side-decor']} aria-hidden="true">
-      {ornaments.map((ornament, index) => (
-        <span
-          key={`${ornament.kind}-${index}`}
-          className={styles['side-decor__item']}
-          data-side={ornament.side}
-          style={{
-            top: ornament.top,
-            transform: `rotate(${ornament.rotate}deg) scale(${ornament.scale})`,
-          }}
-        >
-          <OrnamentShape kind={ornament.kind} />
-        </span>
-      ))}
+    <div className={styles.layer} aria-hidden="true">
+      {Array.from({ length: count }, (_, index) => {
+        const kind = kinds[(seed * 3 + index * 2) % kinds.length]
+        const side = (index + seed) % 2 === 0 ? 'left' : 'right'
+        const top = step * (index + 1) + (((seed + index) % 3) - 1) * 2.5
+        const rotate = rotations[(seed + index) % rotations.length]
+        const scale = scales[(seed + index * 2) % scales.length]
+
+        return (
+          <span
+            key={index}
+            className={styles.item}
+            data-side={side}
+            style={{ top: `${top.toFixed(1)}%`, transform: `rotate(${rotate}deg) scale(${scale})` }}
+          >
+            <OrnamentShape kind={kind} />
+          </span>
+        )
+      })}
     </div>
   )
 }
