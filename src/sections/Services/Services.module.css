@@ -1,0 +1,33 @@
+.section {
+  background: var(--color-seashell);
+  padding-block: var(--section-padding);
+}
+
+.inner {
+  width: min(100% - 2 * var(--gutter), var(--container-width));
+  margin-inline: auto;
+}
+
+.grid {
+  display: grid;
+  gap: 1.25rem;
+}
+
+.note {
+  margin-top: 2rem;
+  max-width: 40rem;
+  color: var(--color-black-bean);
+  font-size: 0.95rem;
+}
+
+@media (min-width: 640px) {
+  .grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (min-width: 1040px) {
+  .grid {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+}
