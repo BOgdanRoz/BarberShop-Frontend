@@ -10,7 +10,8 @@
   gap: clamp(2.5rem, 5vw, 4rem);
   width: min(100% - 2 * var(--gutter), var(--container-width));
   margin-inline: auto;
-  padding-block: clamp(3rem, 7vw, 6rem);
+  padding-top: calc(var(--header-height) + clamp(1.5rem, 4vw, 3rem));
+  padding-bottom: clamp(3rem, 7vw, 6rem);
 }
 
 .content {
