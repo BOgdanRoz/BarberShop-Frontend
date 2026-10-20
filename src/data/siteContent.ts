@@ -12,6 +12,7 @@ export const navItems: NavItem[] = [
   { id: 'about', label: 'Про нас' },
   { id: 'barbers', label: 'Майстри' },
   { id: 'gallery', label: 'Галерея' },
+  { id: 'portfolio', label: 'Роботи' },
   { id: 'testimonials', label: 'Відгуки' },
 ]
 
@@ -65,6 +66,11 @@ export const barbersContent = {
 export const galleryContent = {
   title: 'Стиль і атмосфера',
   lead: 'Робоча атмосфера, догляд за бородою і стрижки в спокійному темпі.',
+}
+
+export const portfolioContent = {
+  title: 'Наші роботи',
+  lead: 'Добірка робіт наших майстрів: стрижки, догляд за бородою і чіткі лінії.',
 }
 
 export const testimonialsContent = {

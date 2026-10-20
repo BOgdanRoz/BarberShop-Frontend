@@ -3,6 +3,7 @@ import About from './sections/About/About'
 import Barbers from './sections/Barbers/Barbers'
 import Gallery from './sections/Gallery/Gallery'
 import Hero from './sections/Hero/Hero'
+import Portfolio from './sections/Portfolio/Portfolio'
 import Services from './sections/Services/Services'
 import Testimonials from './sections/Testimonials/Testimonials'
 import Footer from './components/Footer/Footer'
@@ -21,6 +22,7 @@ function App() {
         <About />
         <Barbers />
         <Gallery />
+        <Portfolio />
         <Testimonials />
         <FinalCta />
       </main>
