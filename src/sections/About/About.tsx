@@ -1,4 +1,6 @@
-import { aboutPhoto } from '../../data/photos'
+import { atmospherePhotos } from '../../data/photos'
+
+const aboutPhoto = atmospherePhotos[0]
 import { aboutContent } from '../../data/siteContent'
 import styles from './About.module.css'
 
