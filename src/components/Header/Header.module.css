@@ -1,10 +1,23 @@
 .header {
+  --header-fg: var(--color-seal-brown);
+  --header-accent: var(--color-brown);
+
   position: sticky;
   top: 0;
   z-index: 20;
   /* Pull the next section under the header so the Hero stays visible behind the transparent bar. */
   margin-bottom: calc(var(--header-height) * -1);
   background: transparent;
+}
+
+.header[data-theme='dark'] {
+  --header-fg: var(--color-seashell);
+  --header-accent: var(--color-lion);
+}
+
+.header[data-theme='accent'] {
+  --header-fg: var(--color-black-bean);
+  --header-accent: var(--color-seal-brown);
 }
 
 .inner {
@@ -21,8 +34,9 @@
   display: inline-flex;
   align-items: center;
   gap: 0.6rem;
-  color: var(--color-seal-brown);
+  color: var(--header-fg);
   text-decoration: none;
+  transition: color 300ms ease;
 }
 
 .logo {
@@ -35,7 +49,7 @@
   font-family: var(--font-brand);
   font-size: 1.3rem;
   line-height: 1;
-  color: var(--color-seal-brown);
+  color: var(--header-fg);
 }
 
 .desktopNav {
@@ -53,16 +67,16 @@
   display: inline-block;
   padding: 0.5rem 0;
   border-bottom: 2px solid transparent;
-  color: var(--color-black-bean);
+  color: var(--header-fg);
   font-size: 0.95rem;
   font-weight: 500;
   text-decoration: none;
-  transition: border-color 200ms ease, color 200ms ease;
+  transition: border-color 300ms ease, color 300ms ease;
 }
 
 .navLink:hover {
-  border-bottom-color: var(--color-brown);
-  color: var(--color-brown);
+  border-bottom-color: var(--header-accent);
+  color: var(--header-accent);
 }
 
 .desktopCta {
@@ -73,13 +87,14 @@
   min-height: 2.75rem;
   min-width: 2.75rem;
   padding: 0.5rem 1rem;
-  border: 2px solid var(--color-brown);
+  border: 2px solid var(--header-fg);
   border-radius: var(--radius);
   background: transparent;
-  color: var(--color-brown);
+  color: var(--header-fg);
   font: inherit;
   font-weight: 600;
   cursor: pointer;
+  transition: color 300ms ease, border-color 300ms ease;
 }
 
 @media (min-width: 900px) {
