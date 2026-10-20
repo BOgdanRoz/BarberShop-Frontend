@@ -12,18 +12,19 @@
   align-items: center;
 }
 
-.media {
-  margin: 0;
-  overflow: hidden;
-  aspect-ratio: 4 / 4.5;
+.emblem {
+  display: grid;
+  place-items: center;
+  aspect-ratio: 4 / 4.6;
   border-radius: 999px 999px var(--radius) var(--radius);
-  background: var(--color-black-bean);
+  background: var(--color-seal-brown);
+  box-shadow: inset 0 0 0 10px var(--color-seal-brown), inset 0 0 0 11px var(--color-lion);
 }
 
-.image {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
+.emblemLogo {
+  width: 62%;
+  height: auto;
+  color: var(--color-lion);
 }
 
 .content {

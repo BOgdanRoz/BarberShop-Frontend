@@ -1,23 +1,14 @@
-import { atmospherePhotos } from '../../data/photos'
-
-const aboutPhoto = atmospherePhotos[0]
 import { aboutContent } from '../../data/siteContent'
+import Logo from '../../components/Logo/Logo'
 import styles from './About.module.css'
 
 function About() {
   return (
     <section id="about" className={styles.section}>
       <div className={styles.inner}>
-        <figure className={styles.media}>
-          <img
-            className={styles.image}
-            src={aboutPhoto.src}
-            alt={aboutPhoto.alt}
-            width={1200}
-            height={782}
-            loading="lazy"
-          />
-        </figure>
+        <div className={styles.emblem}>
+          <Logo className={styles.emblemLogo} />
+        </div>
 
         <div className={styles.content}>
           <h2 className={styles.title}>{aboutContent.title}</h2>
