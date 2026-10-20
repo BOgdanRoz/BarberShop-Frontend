@@ -1,0 +1,94 @@
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 20;
+  background: var(--color-seashell);
+  border-bottom: 1px solid var(--color-lion);
+}
+
+.inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  width: min(100% - 2 * var(--gutter), var(--container-width));
+  min-height: var(--header-height);
+  margin-inline: auto;
+}
+
+.brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
+  color: var(--color-seal-brown);
+  text-decoration: none;
+}
+
+.logo {
+  width: 2.25rem;
+  height: 2.25rem;
+  flex-shrink: 0;
+}
+
+.brandName {
+  font-size: 1.05rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.desktopNav {
+  display: none;
+}
+
+.navList {
+  display: flex;
+  gap: 1.75rem;
+  list-style: none;
+  padding: 0;
+}
+
+.navLink {
+  display: inline-block;
+  padding: 0.5rem 0;
+  border-bottom: 2px solid transparent;
+  color: var(--color-black-bean);
+  font-size: 0.95rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition: border-color 200ms ease, color 200ms ease;
+}
+
+.navLink:hover {
+  border-bottom-color: var(--color-lion);
+  color: var(--color-brown);
+}
+
+.desktopCta {
+  display: none;
+}
+
+.menuButton {
+  min-height: 2.75rem;
+  min-width: 2.75rem;
+  padding: 0.5rem 1rem;
+  border: 2px solid var(--color-seal-brown);
+  border-radius: var(--radius);
+  background: transparent;
+  color: var(--color-seal-brown);
+  font: inherit;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+@media (min-width: 900px) {
+  .desktopNav,
+  .desktopCta {
+    display: flex;
+    align-items: center;
+  }
+
+  .menuButton {
+    display: none;
+  }
+}
