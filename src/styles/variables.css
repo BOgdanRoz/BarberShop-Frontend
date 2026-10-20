@@ -1,0 +1,29 @@
+:root {
+  /* Brand palette (reference tokens) */
+  --color-seal-brown: #5a1b0c;
+  --color-brown: #9c3111;
+  --color-black-bean: #34120a;
+  --color-lion: #ad885a;
+  --color-seashell: #f9f0eb;
+  --color-white: #ffffff;
+
+  /* Semantic text colors (contrast-checked) */
+  --color-text-dark: var(--color-black-bean);
+  --color-text-light: var(--color-seashell);
+  --color-text-muted-dark: var(--color-seashell);
+  --color-accent-on-dark: var(--color-lion);
+
+  /* Typography: Montserrat supports Ukrainian Cyrillic (Righteous and Poppins do not) */
+  --font-family: 'Montserrat', 'Segoe UI', Roboto, Arial, sans-serif;
+
+  /* Layout */
+  --container-width: 1200px;
+  --gutter: clamp(1.25rem, 4vw, 2.5rem);
+  --section-padding: clamp(4rem, 9vw, 7.5rem);
+  --header-height: 4.5rem;
+  --radius: 2px;
+
+  /* Focus ring: brown ring with a seashell halo stays visible on light and dark surfaces */
+  --focus-color: var(--color-brown);
+  --focus-halo: var(--color-seashell);
+}

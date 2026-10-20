@@ -1,0 +1,30 @@
+.heading {
+  display: grid;
+  gap: 1rem;
+  max-width: 44rem;
+  margin-bottom: clamp(2.25rem, 5vw, 3.5rem);
+}
+
+.title {
+  font-size: clamp(1.9rem, 4.2vw, 2.9rem);
+}
+
+.lead {
+  font-size: 1.05rem;
+}
+
+.light .title {
+  color: var(--color-seal-brown);
+}
+
+.light .lead {
+  color: var(--color-black-bean);
+}
+
+.dark .title {
+  color: var(--color-white);
+}
+
+.dark .lead {
+  color: var(--color-seashell);
+}
