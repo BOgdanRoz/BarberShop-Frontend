@@ -22,7 +22,6 @@ function Services() {
           <Button href={instagramUrl} variant="gold">
             {servicesContent.cta}
           </Button>
-          <p className={styles.note}>{servicesContent.note}</p>
         </div>
       </div>
     </section>
