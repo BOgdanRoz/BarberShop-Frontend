@@ -22,10 +22,11 @@ const defaultSocials: SocialLink[] = [
 ]
 
 const roles = ['Grindmaster', 'Топ-барбер', 'Барбер-початківець']
+const names = ['Артур', 'Іван', 'Антон']
 
-// Placeholder names and social links. Replace with approved real details.
+// Editable profile data. Names are first names only; add surnames only when approved.
 export const barbers: Barber[] = barberPhotos.map((photo, index) => ({
-  name: 'Ім’я Прізвище',
+  name: names[index],
   role: roles[index],
   photo,
   socials: defaultSocials,
