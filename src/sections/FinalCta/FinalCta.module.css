@@ -1,12 +1,15 @@
 .section {
-  background: var(--color-brown);
-  color: var(--color-white);
-  padding-block: clamp(3.5rem, 7vw, 5.5rem);
+  position: relative;
+  overflow: hidden;
+  background: var(--color-lion);
+  color: var(--color-black-bean);
+  padding-block: clamp(3.5rem, 7vw, 5rem);
 }
 
 .inner {
+  position: relative;
+  z-index: 1;
   display: grid;
-  grid-template-columns: minmax(0, 1fr);
   gap: 1.5rem;
   justify-items: start;
   width: min(100% - 2 * var(--gutter), var(--container-width));
@@ -14,13 +17,26 @@
 }
 
 .title {
-  color: var(--color-white);
+  color: var(--color-black-bean);
   font-size: clamp(1.9rem, 4.2vw, 2.9rem);
   max-width: 20ch;
 }
 
 .lead {
   max-width: 36rem;
-  color: var(--color-white);
+  color: var(--color-black-bean);
   font-size: 1.05rem;
+}
+
+/* Decorative emblem watermark; hidden from assistive technology via the Logo aria-hidden. */
+.watermark {
+  position: absolute;
+  right: -4rem;
+  top: 50%;
+  width: clamp(12rem, 26vw, 20rem);
+  height: auto;
+  transform: translateY(-50%);
+  color: var(--color-seal-brown);
+  opacity: 0.14;
+  pointer-events: none;
 }

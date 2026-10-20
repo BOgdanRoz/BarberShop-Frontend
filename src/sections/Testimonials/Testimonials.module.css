@@ -1,13 +1,12 @@
 .section {
-  background: var(--color-seal-brown);
-  color: var(--color-seashell);
+  background: var(--color-white);
+  color: var(--color-black-bean);
   padding-block: var(--section-padding);
   text-align: center;
 }
 
 .inner {
   display: grid;
-  grid-template-columns: minmax(0, 1fr);
   gap: 1.75rem;
   justify-items: center;
   width: min(100% - 2 * var(--gutter), 52rem);
@@ -15,7 +14,7 @@
 }
 
 .title {
-  color: var(--color-white);
+  color: var(--color-seal-brown);
   font-size: clamp(1.9rem, 4.2vw, 2.7rem);
 }
 
@@ -28,8 +27,8 @@
 
 .tag {
   padding: 0.25rem 0.6rem;
-  background: var(--color-seashell);
-  color: var(--color-seal-brown);
+  background: var(--color-seal-brown);
+  color: var(--color-seashell);
   font-size: 0.72rem;
   font-weight: 700;
   letter-spacing: 0.1em;
@@ -37,13 +36,15 @@
 }
 
 .quote {
-  font-size: clamp(1.05rem, 2vw, 1.3rem);
+  font-family: var(--font-serif);
   font-style: italic;
-  color: var(--color-seashell);
+  font-size: clamp(1.15rem, 2.2vw, 1.45rem);
+  line-height: 1.5;
+  color: var(--color-black-bean);
 }
 
 .name {
-  color: var(--color-lion);
+  color: var(--color-brown);
   font-weight: 600;
   font-size: 0.95rem;
 }
@@ -57,10 +58,10 @@
 .control {
   width: 2.75rem;
   height: 2.75rem;
-  border: 1px solid var(--color-lion);
+  border: 1.5px solid var(--color-brown);
   border-radius: 50%;
   background: transparent;
-  color: var(--color-white);
+  color: var(--color-brown);
   font-size: 1.5rem;
   line-height: 1;
   cursor: pointer;
@@ -68,12 +69,12 @@
 }
 
 .control:hover {
-  background: var(--color-lion);
-  color: var(--color-black-bean);
+  background: var(--color-brown);
+  color: var(--color-white);
 }
 
 .counter {
   min-width: 3.5rem;
   font-size: 0.9rem;
-  color: var(--color-seashell);
+  color: var(--color-black-bean);
 }

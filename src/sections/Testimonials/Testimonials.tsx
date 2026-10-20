@@ -26,23 +26,13 @@ function Testimonials() {
         </figure>
 
         <div className={styles.controls}>
-          <button
-            type="button"
-            className={styles.control}
-            onClick={showPrevious}
-            aria-label="Попередній відгук"
-          >
+          <button type="button" className={styles.control} onClick={showPrevious} aria-label="Попередній відгук">
             ‹
           </button>
           <span className={styles.counter}>
             {activeIndex + 1} / {total}
           </span>
-          <button
-            type="button"
-            className={styles.control}
-            onClick={showNext}
-            aria-label="Наступний відгук"
-          >
+          <button type="button" className={styles.control} onClick={showNext} aria-label="Наступний відгук">
             ›
           </button>
         </div>
