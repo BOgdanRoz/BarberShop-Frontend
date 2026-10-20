@@ -2,10 +2,12 @@ import Button from '../../components/Button/Button'
 import Logo from '../../components/Logo/Logo'
 import { finalCtaContent, instagramUrl } from '../../data/siteContent'
 import styles from './FinalCta.module.css'
+import SideDecor from '../../components/SideDecor/SideDecor'
 
 function FinalCta() {
   return (
-    <section id="instagram" className={styles.section}>
+    <section id="instagram" className={styles.section} data-header-theme="accent">
+      <SideDecor seed={7} />
       <div className={styles.inner}>
         <h2 className={styles.title}>{finalCtaContent.title}</h2>
         <p className={styles.lead}>{finalCtaContent.lead}</p>

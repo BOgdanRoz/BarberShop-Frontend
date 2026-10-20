@@ -4,7 +4,7 @@ import styles from './Footer.module.css'
 
 function Footer() {
   return (
-    <footer className={styles.footer}>
+    <footer className={styles.footer} data-header-theme="dark">
       <div className={styles.inner}>
         <div className={styles.brandBlock}>
           <a href="#top" className={styles.brand}>

@@ -3,10 +3,12 @@ import ServiceCard from '../../components/ServiceCard/ServiceCard'
 import { services } from '../../data/services'
 import { instagramUrl, servicesContent } from '../../data/siteContent'
 import styles from './Services.module.css'
+import SideDecor from '../../components/SideDecor/SideDecor'
 
 function Services() {
   return (
-    <section id="services" className={styles.section}>
+    <section id="services" className={styles.section} data-header-theme="dark">
+      <SideDecor seed={2} />
       <div className={styles.inner}>
         <div className={styles.grid}>
           {services.map((service) => (

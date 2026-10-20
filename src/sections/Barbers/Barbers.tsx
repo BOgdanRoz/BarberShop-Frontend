@@ -3,10 +3,12 @@ import SectionHeading from '../../components/SectionHeading/SectionHeading'
 import { barbers } from '../../data/barbers'
 import { barbersContent } from '../../data/siteContent'
 import styles from './Barbers.module.css'
+import SideDecor from '../../components/SideDecor/SideDecor'
 
 function Barbers() {
   return (
-    <section id="barbers" className={styles.section}>
+    <section id="barbers" className={styles.section} data-header-theme="dark">
+      <SideDecor seed={4} />
       <div className={styles.inner}>
         <SectionHeading title={barbersContent.title} lead={barbersContent.lead} tone="dark" />
 

@@ -1,10 +1,12 @@
 import { aboutContent } from '../../data/siteContent'
 import Logo from '../../components/Logo/Logo'
 import styles from './About.module.css'
+import SideDecor from '../../components/SideDecor/SideDecor'
 
 function About() {
   return (
-    <section id="about" className={styles.section}>
+    <section id="about" className={styles.section} data-header-theme="light">
+      <SideDecor seed={3} />
       <div className={styles.inner}>
         <div className={styles.emblem}>
           <Logo className={styles.emblemLogo} />
