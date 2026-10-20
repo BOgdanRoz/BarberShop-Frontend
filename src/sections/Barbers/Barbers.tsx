@@ -8,7 +8,7 @@ function Barbers() {
   return (
     <section id="barbers" className={styles.section}>
       <div className={styles.inner}>
-        <SectionHeading title={barbersContent.title} lead={barbersContent.lead} tone="light" />
+        <SectionHeading title={barbersContent.title} lead={barbersContent.lead} />
 
         <div className={styles.grid}>
           {barbers.map((barber, index) => (

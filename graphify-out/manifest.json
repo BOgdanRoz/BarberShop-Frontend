@@ -24,15 +24,15 @@
     "semantic_hash": ""
   },
   "src/components/BarberCard/BarberCard.tsx": {
-    "mtime": 1792507433.2878778,
-    "seen": 1792507556.60327,
-    "ast_hash": "64b47f92c31974683677128982eafc16",
+    "mtime": 1792508334.939077,
+    "seen": 1792508596.398165,
+    "ast_hash": "8e509a29213279836f8eac921fd20bf1",
     "semantic_hash": ""
   },
   "src/components/Button/Button.tsx": {
-    "mtime": 1792507419.0830386,
-    "seen": 1792507556.6032727,
-    "ast_hash": "bec7bdaffeace3b234cc32469a989d0c",
+    "mtime": 1792508258.9396799,
+    "seen": 1792508596.398169,
+    "ast_hash": "5eb7d574023a596bd1d83d43e4387aea",
     "semantic_hash": ""
   },
   "src/components/Footer/Footer.tsx": {
@@ -42,15 +42,15 @@
     "semantic_hash": ""
   },
   "src/components/Header/Header.tsx": {
-    "mtime": 1792507422.7841015,
-    "seen": 1792507556.6032767,
-    "ast_hash": "f24e6692d33507687964f79fa8e16d62",
+    "mtime": 1792508277.782959,
+    "seen": 1792508596.398175,
+    "ast_hash": "bd156266cf8bf54e9e5fbc6daf5c9b53",
     "semantic_hash": ""
   },
   "src/components/Logo/Logo.tsx": {
-    "mtime": 1792507388.5089958,
-    "seen": 1792507556.603279,
-    "ast_hash": "b90bb61820a9da8a9674fe376c7183b0",
+    "mtime": 1792508255.5378287,
+    "seen": 1792508596.3981776,
+    "ast_hash": "557159fee3147316bbb5433a4ee55fb2",
     "semantic_hash": ""
   },
   "src/components/MobileMenu/MobileMenu.tsx": {
@@ -66,9 +66,9 @@
     "semantic_hash": ""
   },
   "src/components/ServiceCard/ServiceCard.tsx": {
-    "mtime": 1792507430.880963,
-    "seen": 1792507556.6032856,
-    "ast_hash": "b7e6a646247a86568e3e5ff3bb89d046",
+    "mtime": 1792508297.255391,
+    "seen": 1792508596.3981862,
+    "ast_hash": "f79eafd5ee972bf0f61916cd623a6b1a",
     "semantic_hash": ""
   },
   "src/data/barbers.ts": {
@@ -78,9 +78,9 @@
     "semantic_hash": ""
   },
   "src/data/photos.ts": {
-    "mtime": 1792507401.7556398,
-    "seen": 1792507556.6032896,
-    "ast_hash": "29abaa019d364e9f14d915de0db78028",
+    "mtime": 1792508275.6162112,
+    "seen": 1792508596.398194,
+    "ast_hash": "362b4c4be46b91e5bdb7fb615f896ed7",
     "semantic_hash": ""
   },
   "src/data/services.ts": {
@@ -90,9 +90,9 @@
     "semantic_hash": ""
   },
   "src/data/siteContent.ts": {
-    "mtime": 1792507405.047113,
-    "seen": 1792507556.6032937,
-    "ast_hash": "8f7d2803f4ccd70f400eea3a7af998be",
+    "mtime": 1792508272.4914122,
+    "seen": 1792508596.3981996,
+    "ast_hash": "c88efaca018c95d6bf9c7f1e5729b408",
     "semantic_hash": ""
   },
   "src/data/testimonials.ts": {
@@ -108,45 +108,45 @@
     "semantic_hash": ""
   },
   "src/sections/About/About.tsx": {
-    "mtime": 1792507460.732897,
-    "seen": 1792507556.6032996,
-    "ast_hash": "72a65b338af51b52a02af1247be5bd52",
+    "mtime": 1792508328.9503515,
+    "seen": 1792508596.3982074,
+    "ast_hash": "d5a1804a75aabd44427204ebc3abc905",
     "semantic_hash": ""
   },
   "src/sections/Barbers/Barbers.tsx": {
-    "mtime": 1792507463.1565876,
-    "seen": 1792507556.603302,
-    "ast_hash": "c76aaa7139ce13c99d5cd8d58a2607b5",
+    "mtime": 1792508332.0569165,
+    "seen": 1792508596.3982103,
+    "ast_hash": "c8d6fe7cf215c08c4d5b2f5114eccc32",
     "semantic_hash": ""
   },
   "src/sections/FinalCta/FinalCta.tsx": {
-    "mtime": 1792507470.6552634,
-    "seen": 1792507556.6033037,
+    "mtime": 1792508354.294017,
+    "seen": 1792508596.3982127,
     "ast_hash": "e5f250bebb83b0389cf5ce634b723ddd",
     "semantic_hash": ""
   },
   "src/sections/Gallery/Gallery.tsx": {
-    "mtime": 1792507465.293118,
-    "seen": 1792507556.6033058,
-    "ast_hash": "bc445f38772d673417d69ddd11da0159",
+    "mtime": 1792508351.8602803,
+    "seen": 1792508596.398215,
+    "ast_hash": "e7d0a9e710a9ad32311fe9f511ba726d",
     "semantic_hash": ""
   },
   "src/sections/Hero/Hero.tsx": {
-    "mtime": 1792507455.3163226,
-    "seen": 1792507556.6033082,
-    "ast_hash": "f5c501a3b8fdecf99a115c6de03fc062",
+    "mtime": 1792508314.5044518,
+    "seen": 1792508596.3982174,
+    "ast_hash": "9c2410b1dd0477fd5a42c7d364260a14",
     "semantic_hash": ""
   },
   "src/sections/Services/Services.tsx": {
-    "mtime": 1792507458.4943986,
-    "seen": 1792507556.6033103,
-    "ast_hash": "948ef59be7c9f970914cf3b5f1893414",
+    "mtime": 1792508299.5604122,
+    "seen": 1792508596.3982196,
+    "ast_hash": "7906b69ffe8e1604c2daacca9d7c0c16",
     "semantic_hash": ""
   },
   "src/sections/Testimonials/Testimonials.tsx": {
-    "mtime": 1792507467.8657255,
-    "seen": 1792507556.603312,
-    "ast_hash": "438486d83e0616f21bfd50f0d0a0a7ce",
+    "mtime": 1792508348.337782,
+    "seen": 1792508596.3982217,
+    "ast_hash": "e9e80ec4055550d3664deae801a8ebce",
     "semantic_hash": ""
   },
   "src/utils/formatPrice.ts": {
@@ -198,9 +198,9 @@
     "semantic_hash": ""
   },
   "index.html": {
-    "mtime": 1792507363.468685,
-    "seen": 1792507556.603334,
-    "ast_hash": "ff0327aabfe993af1a4fe5068c7e024d",
+    "mtime": 1792508250.671703,
+    "seen": 1792508596.3982487,
+    "ast_hash": "987af0c4d85b0d28452381428d99bfcc",
     "semantic_hash": ""
   },
   "design references/barbersSectionExample.png": {
@@ -252,9 +252,9 @@
     "semantic_hash": ""
   },
   "public/favicon.svg": {
-    "mtime": 1792507364.3910766,
-    "seen": 1792507556.6033523,
-    "ast_hash": "5d9ef629f99d4dbca0d556d11e737a59",
+    "mtime": 1792508256.3552854,
+    "seen": 1792508596.3982728,
+    "ast_hash": "cf37def8e47e3cd07c0e3ad6489fd7ca",
     "semantic_hash": ""
   },
   "src/assets/images/barber-1.jpg": {
@@ -275,34 +275,34 @@
     "ast_hash": "53585d68b35f59987bf29ce248dec171",
     "semantic_hash": ""
   },
-  "src/assets/images/gallery-1.jpg": {
-    "mtime": 1792507281.8015313,
-    "seen": 1792507556.6033611,
-    "ast_hash": "1f1038f93bad3e392dda544ce10ec451",
-    "semantic_hash": ""
-  },
   "src/assets/images/gallery-2.jpg": {
     "mtime": 1792507279.7263422,
     "seen": 1792507556.603363,
     "ast_hash": "d1f17047a4bfb9b301afd93246bbbce3",
     "semantic_hash": ""
   },
-  "src/assets/images/gallery-3.jpg": {
-    "mtime": 1792507279.356041,
-    "seen": 1792507556.6033652,
-    "ast_hash": "1b6f697a4c40a0e9ea9f22c5f41a78aa",
-    "semantic_hash": ""
-  },
-  "src/assets/images/gallery-4.jpg": {
-    "mtime": 1792507281.2567017,
-    "seen": 1792507556.603367,
-    "ast_hash": "5a028580667a6055dab0c848a5474505",
-    "semantic_hash": ""
-  },
   "src/assets/images/hero-barber.jpg": {
     "mtime": 1792507277.076097,
     "seen": 1792507556.6033692,
     "ast_hash": "dc1d9d732807c45be892ab7625f2912c",
+    "semantic_hash": ""
+  },
+  "src/components/ServiceIcon/ServiceIcon.tsx": {
+    "mtime": 1792508296.1955104,
+    "seen": 1792508596.398189,
+    "ast_hash": "84c2c33baf475565bdfdbf5fd899c81b",
+    "semantic_hash": ""
+  },
+  "src/assets/images/gallery-barber-at-work.jpg": {
+    "mtime": 1792508224.505064,
+    "seen": 1792508596.398286,
+    "ast_hash": "e8c6f56b6c70cf9abeec705bf0b6b7e3",
+    "semantic_hash": ""
+  },
+  "src/assets/images/gallery-toledo-1895.jpg": {
+    "mtime": 1792508223.845759,
+    "seen": 1792508596.398288,
+    "ast_hash": "2c7bdf8d64e017b72e922900c0381e0e",
     "semantic_hash": ""
   }
 }

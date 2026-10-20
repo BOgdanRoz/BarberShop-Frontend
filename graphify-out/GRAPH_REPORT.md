@@ -1,17 +1,17 @@
 # Graph Report - BarberShop  (2026-10-20)
 
 ## Corpus Check
-- 33 files · ~187,141 words
+- 34 files · ~173,746 words
 - Verdict: corpus is large enough that graph structure adds value.
 - Unclassified: 17 file(s) not represented in the graph (top: .css 16, (none) 1)
 
 ## Summary
-- 215 nodes · 328 edges · 13 communities (12 shown, 1 thin omitted)
+- 218 nodes · 333 edges · 13 communities (12 shown, 1 thin omitted)
 - Extraction: 98% EXTRACTED · 2% INFERRED · 0% AMBIGUOUS · INFERRED: 6 edges (avg confidence: 0.87)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `fc4699e6`
+- Built from commit: `668f2d9e`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -34,13 +34,13 @@
 1. `compilerOptions` - 18 edges
 2. `compilerOptions` - 15 edges
 3. `App()` - 11 edges
-4. `SectionHeading()` - 11 edges
-5. `Button()` - 9 edges
-6. `Landing Pages` - 9 edges
+4. `Button()` - 11 edges
+5. `Landing Pages` - 9 edges
+6. `instagramUrl` - 8 edges
 7. `Signs of a Template-Like Landing Page` - 7 edges
 8. `graphify-out/graph.json` - 7 edges
 9. `Header()` - 6 edges
-10. `instagramUrl` - 6 edges
+10. `graphify (AGENTS.md section)` - 6 edges
 
 ## Surprising Connections (you probably didn't know these)
 - `App()` --calls--> `Header()`  [EXTRACTED]
@@ -51,8 +51,8 @@
   src/sections/FinalCta/FinalCta.tsx → src/components/Button/Button.tsx
 - `Hero()` --calls--> `Button()`  [EXTRACTED]
   src/sections/Hero/Hero.tsx → src/components/Button/Button.tsx
-- `Footer()` --calls--> `Logo()`  [EXTRACTED]
-  src/components/Footer/Footer.tsx → src/components/Logo/Logo.tsx
+- `Services()` --calls--> `Button()`  [EXTRACTED]
+  src/sections/Services/Services.tsx → src/components/Button/Button.tsx
 
 ## Import Cycles
 - None detected.
@@ -67,20 +67,20 @@ Cohesion: 0.24
 Nodes (10): graphify-out/graph.json, GRAPH_REPORT.md, graphify (AGENTS.md section), graphify explain, graphify-out/ directory, graphify path, graphify query, graphify update (+2 more)
 
 ### Community 1 - "siteContent.ts"
-Cohesion: 0.11
-Nodes (21): Button(), ButtonProps, ButtonVariant, credits, uniqueCredits, Header(), Logo(), LogoProps (+13 more)
+Cohesion: 0.10
+Nodes (21): react, Button(), ButtonProps, ButtonVariant, credits, uniqueCredits, Header(), Logo() (+13 more)
 
 ### Community 2 - "package.json"
-Cohesion: 0.08
-Nodes (26): dependencies, react, react-dom, name, private, scripts, build, dev (+18 more)
+Cohesion: 0.09
+Nodes (25): dependencies, react, react-dom, name, private, scripts, build, dev (+17 more)
 
 ### Community 3 - "App.tsx"
 Cohesion: 0.15
-Nodes (15): App(), Footer(), SectionHeading(), SectionHeadingProps, galleryPhotos, galleryContent, Testimonial, testimonials (+7 more)
+Nodes (13): App(), Footer(), SectionHeading(), SectionHeadingProps, galleryPhotos, galleryContent, About(), Barbers() (+5 more)
 
 ### Community 4 - "photos.ts"
-Cohesion: 0.13
-Nodes (7): BarberCard(), BarberCardProps, Barber, barbers, barberPhotos, Photo, barbersContent
+Cohesion: 0.11
+Nodes (11): BarberCard(), BarberCardProps, Barber, barbers, aboutPhoto, barberPhotos, heroPhoto, Photo (+3 more)
 
 ### Community 5 - "compilerOptions"
 Cohesion: 0.10
@@ -91,8 +91,8 @@ Cohesion: 0.12
 Nodes (16): compilerOptions, allowImportingTsExtensions, erasableSyntaxOnly, lib, module, moduleDetection, noEmit, noFallthroughCasesInSwitch (+8 more)
 
 ### Community 7 - "Services.tsx"
-Cohesion: 0.21
-Nodes (9): ServiceCard(), ServiceCardProps, convertUsdToUah(), Service, services, serviceSources, USD_TO_UAH_RATE, servicesContent (+1 more)
+Cohesion: 0.18
+Nodes (11): ServiceCard(), ServiceCardProps, ServiceIcon(), ServiceIconProps, convertUsdToUah(), Service, services, serviceSources (+3 more)
 
 ### Community 8 - "devDependencies"
 Cohesion: 0.15
@@ -118,17 +118,17 @@ Nodes (3): Expanding the ESLint configuration, React Compiler, React + TypeScrip
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
-- **Why does `react` connect `package.json` to `siteContent.ts`?**
-  _High betweenness centrality (0.148) - this node is a cross-community bridge._
+- **Why does `react` connect `siteContent.ts` to `package.json`, `App.tsx`?**
+  _High betweenness centrality (0.164) - this node is a cross-community bridge._
 - **What connects `@types/node`, `@types/react`, `@types/react-dom` to the rest of the system?**
   _5 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `siteContent.ts` be split into smaller, more focused modules?**
-  _Cohesion score 0.10756302521008404 - nodes in this community are weakly interconnected._
+  _Cohesion score 0.09523809523809523 - nodes in this community are weakly interconnected._
 - **Why does `devDependencies` connect `devDependencies` to `package.json`?**
-  _High betweenness centrality (0.070) - this node is a cross-community bridge._
+  _High betweenness centrality (0.069) - this node is a cross-community bridge._
 - **Should `package.json` be split into smaller, more focused modules?**
-  _Cohesion score 0.07956989247311828 - nodes in this community are weakly interconnected._
+  _Cohesion score 0.0873015873015873 - nodes in this community are weakly interconnected._
 - **Should `photos.ts` be split into smaller, more focused modules?**
-  _Cohesion score 0.13333333333333333 - nodes in this community are weakly interconnected._
+  _Cohesion score 0.1076923076923077 - nodes in this community are weakly interconnected._
 - **Should `compilerOptions` be split into smaller, more focused modules?**
   _Cohesion score 0.1 - nodes in this community are weakly interconnected._

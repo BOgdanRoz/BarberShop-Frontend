@@ -1,5 +1,5 @@
 :root {
-  /* Brand palette (reference tokens) */
+  /* Brand palette (colorPanel.png, matches AGENTS.md tokens) */
   --color-seal-brown: #5a1b0c;
   --color-brown: #9c3111;
   --color-black-bean: #34120a;
@@ -7,20 +7,18 @@
   --color-seashell: #f9f0eb;
   --color-white: #ffffff;
 
-  /* Semantic text colors (contrast-checked) */
-  --color-text-dark: var(--color-black-bean);
-  --color-text-light: var(--color-seashell);
-  --color-text-muted-dark: var(--color-seashell);
-  --color-accent-on-dark: var(--color-lion);
-
-  /* Typography: Montserrat supports Ukrainian Cyrillic (Righteous and Poppins do not) */
-  --font-family: 'Montserrat', 'Segoe UI', Roboto, Arial, sans-serif;
+  /* Typography. Righteous and Poppins have no Cyrillic subset on Google Fonts,
+     so Ukrainian headings use Russo One and body text uses Montserrat.
+     Righteous is kept only for the Latin brand wordmark. */
+  --font-display: 'Russo One', 'Segoe UI', Arial, sans-serif;
+  --font-body: 'Montserrat', 'Segoe UI', Roboto, Arial, sans-serif;
+  --font-brand: 'Righteous', 'Russo One', sans-serif;
 
   /* Layout */
   --container-width: 1200px;
   --gutter: clamp(1.25rem, 4vw, 2.5rem);
-  --section-padding: clamp(4rem, 9vw, 7.5rem);
-  --header-height: 4.5rem;
+  --section-padding: clamp(4rem, 9vw, 7rem);
+  --header-height: 4.75rem;
   --radius: 2px;
 
   /* Focus ring: brown ring with a seashell halo stays visible on light and dark surfaces */

@@ -3,13 +3,14 @@
   align-items: center;
   justify-content: center;
   min-height: 3rem;
-  padding: 0.75rem 1.5rem;
+  padding: 0.75rem 1.6rem;
   border: 2px solid transparent;
   border-radius: var(--radius);
   font: inherit;
   font-size: 0.95rem;
   font-weight: 600;
   line-height: 1.2;
+  letter-spacing: 0.02em;
   text-align: center;
   text-decoration: none;
   transition: background-color 200ms ease, color 200ms ease, border-color 200ms ease;
@@ -24,6 +25,17 @@
   background: var(--color-seal-brown);
 }
 
+.outline {
+  border-color: var(--color-brown);
+  color: var(--color-brown);
+  background: transparent;
+}
+
+.outline:hover {
+  background: var(--color-brown);
+  color: var(--color-white);
+}
+
 .gold {
   background: var(--color-lion);
   color: var(--color-black-bean);
@@ -36,6 +48,7 @@
 .ghost {
   border-color: var(--color-lion);
   color: var(--color-seashell);
+  background: transparent;
 }
 
 .ghost:hover {

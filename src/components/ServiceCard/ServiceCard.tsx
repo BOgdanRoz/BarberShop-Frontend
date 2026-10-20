@@ -1,17 +1,17 @@
 import type { Service } from '../../data/services'
 import { formatUah } from '../../utils/formatPrice'
+import ServiceIcon from '../ServiceIcon/ServiceIcon'
 import styles from './ServiceCard.module.css'
 
 interface ServiceCardProps {
   service: Service
-  index: number
 }
 
-function ServiceCard({ service, index }: ServiceCardProps) {
+function ServiceCard({ service }: ServiceCardProps) {
   return (
-    <article className={styles.card}>
-      <span className={styles.index} aria-hidden="true">
-        {String(index + 1).padStart(2, '0')}
+    <article className={styles.item}>
+      <span className={styles.icon}>
+        <ServiceIcon serviceId={service.id} />
       </span>
       <h3 className={styles.name}>{service.name}</h3>
       <p className={styles.description}>{service.description}</p>

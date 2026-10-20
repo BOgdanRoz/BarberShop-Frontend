@@ -2,7 +2,7 @@
   position: sticky;
   top: 0;
   z-index: 20;
-  background: var(--color-seashell);
+  background: var(--color-white);
   border-bottom: 1px solid var(--color-lion);
 }
 
@@ -25,16 +25,16 @@
 }
 
 .logo {
-  width: 2.25rem;
-  height: 2.25rem;
+  width: 2.5rem;
+  height: 2.5rem;
   flex-shrink: 0;
 }
 
 .brandName {
-  font-size: 1.05rem;
-  font-weight: 700;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
+  font-family: var(--font-brand);
+  font-size: 1.25rem;
+  line-height: 1;
+  color: var(--color-brown);
 }
 
 .desktopNav {
@@ -54,13 +54,13 @@
   border-bottom: 2px solid transparent;
   color: var(--color-black-bean);
   font-size: 0.95rem;
-  font-weight: 600;
+  font-weight: 500;
   text-decoration: none;
   transition: border-color 200ms ease, color 200ms ease;
 }
 
 .navLink:hover {
-  border-bottom-color: var(--color-lion);
+  border-bottom-color: var(--color-brown);
   color: var(--color-brown);
 }
 
@@ -72,10 +72,10 @@
   min-height: 2.75rem;
   min-width: 2.75rem;
   padding: 0.5rem 1rem;
-  border: 2px solid var(--color-seal-brown);
+  border: 2px solid var(--color-brown);
   border-radius: var(--radius);
   background: transparent;
-  color: var(--color-seal-brown);
+  color: var(--color-brown);
   font: inherit;
   font-weight: 600;
   cursor: pointer;

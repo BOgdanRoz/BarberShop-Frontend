@@ -1,7 +1,7 @@
 import type { ReactNode } from 'react'
 import styles from './Button.module.css'
 
-type ButtonVariant = 'brown' | 'gold' | 'ghost'
+type ButtonVariant = 'brown' | 'outline' | 'gold' | 'ghost'
 
 interface ButtonProps {
   href: string

@@ -1,5 +1,5 @@
 // All user-facing copy lives here. Replace placeholders with approved business details.
-export const siteName = 'Барбершоп'
+export const siteName = "Men's Beard"
 export const instagramUrl = 'https://www.instagram.com/'
 
 export interface NavItem {
@@ -17,16 +17,20 @@ export const navItems: NavItem[] = [
 
 export const heroContent = {
   eyebrow: 'Чоловічі та дитячі стрижки',
-  title: 'Стрижка з увагою до кожної деталі',
+  titleStart: 'Стрижка з увагою',
+  titleAccent: 'до кожної деталі.',
   lead: 'Класичні та сучасні стрижки, догляд за бородою і спокійна атмосфера, де комфортно і дорослим, і дітям.',
   primaryCta: 'Переглянути роботи в Instagram',
   secondaryCta: 'Послуги та ціни',
+  linkText: 'Дивіться наші роботи в Instagram',
 }
 
 export const servicesContent = {
-  title: 'Послуги та ціни',
-  lead: 'Чоловічі послуги та догляд за бородою. Дитячі стрижки проходять спокійно, без поспіху.',
+  title: 'Якість, яку видно',
+  accent: 'в кожній деталі',
+  lead: 'Послуги для чоловіків і догляд за бородою. Дитячі стрижки проходять спокійно і без поспіху.',
   note: 'Ціни вказані в гривнях (₴). Актуальність цін варто уточнювати перед візитом.',
+  cta: 'Відкрити Instagram',
 }
 
 export interface AboutItem {
@@ -35,12 +39,12 @@ export interface AboutItem {
 }
 
 export const aboutContent: { title: string; lead: string; items: AboutItem[] } = {
-  title: 'Чому обирають нас',
-  lead: 'Ми працюємо повільно там, де це важливо: контур, лінія шиї, форма бороди. Результат має виглядати охайно не лише в день візиту.',
+  title: 'Хто ми',
+  lead: 'Ми стрижемо чоловіків і дітей, і кожна стрижка для нас окрема робота. Контур, лінія шиї і форма бороди перевіряються до кінця.',
   items: [
     {
       title: 'Увага до деталей',
-      text: 'Контур і форму перевіряємо до кінця, а не лише загальний силует стрижки.',
+      text: 'Перевіряємо загальний силует, а також контур і лінію шиї.',
     },
     {
       title: 'Комфорт для дітей',
@@ -60,16 +64,16 @@ export const barbersContent = {
 
 export const galleryContent = {
   title: 'Стиль і атмосфера',
-  lead: 'Стрижки, борода і робоча атмосфера барбершопу.',
+  lead: 'Робоча атмосфера, догляд за бородою і стрижки в спокійному темпі.',
 }
 
 export const testimonialsContent = {
-  title: 'Відгуки клієнтів',
+  title: 'Наші клієнти',
 }
 
 export const finalCtaContent = {
   title: 'Слідкуйте за нами в Instagram',
-  lead: 'Дивіться роботи, актуальні стрижки та новини барбершопу.',
+  lead: 'Дивіться роботи майстрів, актуальні стрижки та новини барбершопу.',
   cta: 'Відкрити Instagram',
 }
 

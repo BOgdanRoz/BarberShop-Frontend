@@ -13,10 +13,10 @@ html {
 
 body {
   margin: 0;
-  font-family: var(--font-family);
+  font-family: var(--font-body);
   font-size: 1rem;
   line-height: 1.6;
-  color: var(--color-text-dark);
+  color: var(--color-black-bean);
   background: var(--color-seashell);
   overflow-x: hidden;
 }
@@ -36,16 +36,17 @@ h2,
 h3,
 p,
 figure,
-ul {
+ul,
+blockquote {
   margin: 0;
 }
 
 h1,
 h2,
 h3 {
-  font-weight: 700;
-  line-height: 1.15;
-  letter-spacing: -0.01em;
+  font-family: var(--font-display);
+  font-weight: 400;
+  line-height: 1.1;
 }
 
 section[id] {
