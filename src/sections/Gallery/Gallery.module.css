@@ -1,6 +1,6 @@
 .section {
   background: var(--color-seashell);
-  padding-block: var(--section-padding);
+  padding-block: clamp(3.5rem, 7vw, 5.5rem);
 }
 
 .inner {
@@ -16,42 +16,56 @@
   padding: 0;
 }
 
-.item,
-.itemLarge {
+.tall,
+.wide,
+.square {
   overflow: hidden;
   background: var(--color-black-bean);
-  aspect-ratio: 4 / 3;
 }
 
-.itemLarge {
-  aspect-ratio: 4 / 3;
+.tall {
+  aspect-ratio: 4 / 5;
+}
+
+.wide {
+  aspect-ratio: 16 / 10;
+}
+
+.square {
+  aspect-ratio: 1 / 1;
 }
 
 .image {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  transition: transform 400ms ease;
+  transition: transform 500ms ease;
 }
 
 @media (hover: hover) {
-  .item:hover .image,
-  .itemLarge:hover .image {
+  .tall:hover .image,
+  .wide:hover .image,
+  .square:hover .image {
     transform: scale(1.03);
   }
 }
 
-@media (min-width: 720px) {
+@media (min-width: 760px) {
   .grid {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-template-columns: minmax(0, 1.25fr) minmax(0, 1fr);
+    grid-template-rows: auto auto;
+    gap: 1rem;
   }
 
-  .itemLarge {
-    grid-row: span 2;
+  .tall {
+    grid-row: 1 / span 2;
     aspect-ratio: auto;
+    min-height: 100%;
   }
 
-  .item {
-    aspect-ratio: 4 / 3;
+  .wide,
+  .square {
+    aspect-ratio: auto;
+    min-height: 13rem;
   }
 }
