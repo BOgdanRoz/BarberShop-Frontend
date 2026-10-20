@@ -1,7 +1,10 @@
-import { atmospherePhotos as galleryPhotos } from '../../data/photos'
+import { atmospherePhotos } from '../../data/photos'
 import { galleryContent } from '../../data/siteContent'
 import SectionHeading from '../../components/SectionHeading/SectionHeading'
 import styles from './Gallery.module.css'
+
+// Asymmetric layout: one tall frame and two stacked frames with different proportions.
+const layoutClasses = [styles.tall, styles.wide, styles.square]
 
 function Gallery() {
   return (
@@ -10,9 +13,9 @@ function Gallery() {
         <SectionHeading title={galleryContent.title} lead={galleryContent.lead} />
 
         <ul className={styles.grid}>
-          {galleryPhotos.map((photo, index) => (
-            <li key={photo.src} className={index === 0 ? styles.itemLarge : styles.item}>
-              <img className={styles.image} src={photo.src} alt={photo.alt} width={1200} height={900} loading="lazy" />
+          {atmospherePhotos.map((photo, index) => (
+            <li key={photo.src} className={layoutClasses[index]}>
+              <img className={styles.image} src={photo.src} alt={photo.alt} width={1200} height={1200} loading="lazy" />
             </li>
           ))}
         </ul>
