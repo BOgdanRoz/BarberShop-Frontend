@@ -1,4 +1,4 @@
-import { galleryPhotos } from '../../data/photos'
+import { atmospherePhotos as galleryPhotos } from '../../data/photos'
 import { galleryContent } from '../../data/siteContent'
 import SectionHeading from '../../components/SectionHeading/SectionHeading'
 import styles from './Gallery.module.css'

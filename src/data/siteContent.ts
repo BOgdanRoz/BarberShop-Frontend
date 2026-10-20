@@ -81,5 +81,4 @@ export const footerContent = {
   description: 'Чоловічі та дитячі стрижки, догляд за бородою і гоління.',
   navTitle: 'Навігація',
   socialTitle: 'Соцмережі',
-  creditsTitle: 'Фото',
 }

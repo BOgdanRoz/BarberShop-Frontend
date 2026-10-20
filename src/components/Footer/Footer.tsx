@@ -1,15 +1,6 @@
 import Logo from '../Logo/Logo'
-import {
-  footerContent,
-  instagramUrl,
-  navItems,
-  siteName,
-} from '../../data/siteContent'
-import { barberPhotos, galleryPhotos, heroPhoto } from '../../data/photos'
+import { footerContent, instagramUrl, navItems, siteName } from '../../data/siteContent'
 import styles from './Footer.module.css'
-
-const credits = [heroPhoto, ...barberPhotos, ...galleryPhotos].map((photo) => photo.credit)
-const uniqueCredits = [...new Set(credits)]
 
 function Footer() {
   return (
@@ -40,12 +31,7 @@ function Footer() {
           <h2 className={styles.heading}>{footerContent.socialTitle}</h2>
           <ul className={styles.list}>
             <li>
-              <a
-                className={styles.link}
-                href={instagramUrl}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
+              <a className={styles.link} href={instagramUrl} target="_blank" rel="noopener noreferrer">
                 Instagram
                 <span className="visually-hidden"> (відкриється у новій вкладці)</span>
               </a>
@@ -56,15 +42,9 @@ function Footer() {
 
       <div className={styles.bottom}>
         <div className={styles.inner}>
-          <div className={styles.credits}>
-            <h2 className={styles.heading}>{footerContent.creditsTitle}</h2>
-            <ul className={styles.creditList}>
-              {uniqueCredits.map((credit) => (
-                <li key={credit}>{credit}</li>
-              ))}
-            </ul>
-          </div>
-          <p className={styles.copyright}>© {new Date().getFullYear()} {siteName}</p>
+          <p className={styles.copyright}>
+            © {new Date().getFullYear()} {siteName}
+          </p>
         </div>
       </div>
     </footer>
