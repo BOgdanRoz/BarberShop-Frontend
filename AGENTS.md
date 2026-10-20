@@ -484,5 +484,33 @@ When instructions conflict, use this order:
 4.  Existing project conventions, when they do not conflict with the
     above.
 
+## 15. Language, Localization, and Currency Requirements
+
+### Website Language
+
+- All user-facing website content must be written in Ukrainian.
+- This includes navigation, headings, descriptions, buttons, forms, service names, prices, barber information, testimonials, accessibility labels, error messages, and footer content.
+- Use natural, grammatically correct Ukrainian. Avoid English placeholder text in the final user-facing interface.
+- Keep code identifiers, variable names, filenames, component names, comments, and Git commit messages in English.
+- Communicate with the user in Ukrainian when reporting progress, asking questions, explaining decisions, or summarizing results.
+
+### Currency and Pricing
+
+- All service prices must be displayed in Ukrainian hryvnia (UAH), using the `₴` symbol or `грн`.
+- Extract service names and prices from the `Services Section Example` image in `Design References`.
+- Preserve the exact numeric prices shown in the reference. Do not invent, convert, or estimate prices.
+- If the reference uses another currency or the currency cannot be determined confidently, report the ambiguity instead of silently changing the prices.
+- Format prices consistently throughout the website.
+
+### Ukrainian Localization
+
+- Use Ukrainian date, time, and number formatting wherever applicable.
+- Use Ukrainian text for placeholder barber names and testimonial placeholders, clearly indicating that the content must be replaced with real information.
+- Ensure the chosen fonts support Ukrainian Cyrillic characters.
+- Set the document language to Ukrainian (`lang="uk"`).
+- Review the entire interface before completion to ensure that no unintended English user-facing text remains.
+
+These requirements apply to every website section and override any design reference containing English sample copy. Preserve the reference's visual design while writing the actual website content in Ukrainian.
+
 Keep the implementation focused on a clear, attractive, accessible, and
 commercially credible barbershop landing page for men and children.
