@@ -1,22 +1,29 @@
+import Button from '../../components/Button/Button'
 import ServiceCard from '../../components/ServiceCard/ServiceCard'
-import SectionHeading from '../../components/SectionHeading/SectionHeading'
 import { services } from '../../data/services'
-import { servicesContent } from '../../data/siteContent'
+import { instagramUrl, servicesContent } from '../../data/siteContent'
 import styles from './Services.module.css'
 
 function Services() {
   return (
     <section id="services" className={styles.section}>
       <div className={styles.inner}>
-        <SectionHeading title={servicesContent.title} lead={servicesContent.lead} tone="light" />
-
         <div className={styles.grid}>
-          {services.map((service, index) => (
-            <ServiceCard key={service.id} service={service} index={index} />
+          {services.map((service) => (
+            <ServiceCard key={service.id} service={service} />
           ))}
         </div>
 
-        <p className={styles.note}>{servicesContent.note}</p>
+        <div className={styles.aside}>
+          <h2 className={styles.title}>
+            {servicesContent.title} <span className={styles.accent}>{servicesContent.accent}</span>
+          </h2>
+          <p className={styles.lead}>{servicesContent.lead}</p>
+          <Button href={instagramUrl} variant="gold">
+            {servicesContent.cta}
+          </Button>
+          <p className={styles.note}>{servicesContent.note}</p>
+        </div>
       </div>
     </section>
   )

@@ -1,5 +1,5 @@
 .section {
-  background: var(--color-seal-brown);
+  background: var(--color-seashell);
   padding-block: var(--section-padding);
 }
 
@@ -10,16 +10,21 @@
 
 .grid {
   display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
+  grid-template-columns: minmax(0, 1fr);
   gap: 0.75rem;
   list-style: none;
   padding: 0;
 }
 
-.item {
+.item,
+.itemLarge {
   overflow: hidden;
-  aspect-ratio: 4 / 3;
   background: var(--color-black-bean);
+  aspect-ratio: 4 / 3;
+}
+
+.itemLarge {
+  aspect-ratio: 4 / 3;
 }
 
 .image {
@@ -30,14 +35,23 @@
 }
 
 @media (hover: hover) {
-  .item:hover .image {
+  .item:hover .image,
+  .itemLarge:hover .image {
     transform: scale(1.03);
   }
 }
 
-@media (min-width: 900px) {
+@media (min-width: 720px) {
   .grid {
-    grid-template-columns: repeat(4, minmax(0, 1fr));
-    gap: 1rem;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .itemLarge {
+    grid-row: span 2;
+    aspect-ratio: auto;
+  }
+
+  .item {
+    aspect-ratio: 4 / 3;
   }
 }

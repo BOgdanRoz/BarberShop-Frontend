@@ -1,9 +1,9 @@
-import { useEffect, useId, useState } from 'react'
 import Button from '../Button/Button'
 import Logo from '../Logo/Logo'
 import MobileMenu from '../MobileMenu/MobileMenu'
 import { instagramUrl, navItems, siteName } from '../../data/siteContent'
 import styles from './Header.module.css'
+import { useEffect, useId, useState } from 'react'
 
 function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)

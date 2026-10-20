@@ -5,6 +5,7 @@
 
 .inner {
   display: grid;
+  grid-template-columns: minmax(0, 1fr);
   gap: 2.5rem;
   width: min(100% - 2 * var(--gutter), var(--container-width));
   margin-inline: auto;
@@ -22,11 +23,9 @@
   align-items: center;
   gap: 0.6rem;
   color: var(--color-white);
-  font-size: 1.1rem;
-  font-weight: 700;
-  letter-spacing: 0.08em;
+  font-family: var(--font-brand);
+  font-size: 1.4rem;
   text-decoration: none;
-  text-transform: uppercase;
 }
 
 .logo {
