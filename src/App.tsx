@@ -7,10 +7,12 @@ import Portfolio from './sections/Portfolio/Portfolio'
 import Services from './sections/Services/Services'
 import Footer from './components/Footer/Footer'
 import Header from './components/Header/Header'
+import SideDecor from './components/SideDecor/SideDecor'
 
 function App() {
   return (
-    <>
+    <div className="page">
+      <SideDecor />
       <a className="skip-link" href="#main">
         Перейти до вмісту
       </a>
@@ -25,7 +27,7 @@ function App() {
         <FinalCta />
       </main>
       <Footer />
-    </>
+    </div>
   )
 }
 

@@ -1,0 +1,35 @@
+/* Side ornaments for wide screens only. Lives in the margins beside the 1200px container. */
+.side-decor {
+  display: none;
+}
+
+@media (min-width: 1360px) {
+  .side-decor {
+    display: block;
+    position: absolute;
+    inset: 0;
+    z-index: 0;
+    pointer-events: none;
+  }
+
+  .side-decor__item {
+    position: absolute;
+    width: clamp(2.75rem, 3.4vw, 3.75rem);
+    color: var(--color-lion);
+    opacity: 0.32;
+  }
+
+  .side-decor__item svg {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+
+  .side-decor__item[data-side='left'] {
+    left: 1rem;
+  }
+
+  .side-decor__item[data-side='right'] {
+    right: 1rem;
+  }
+}

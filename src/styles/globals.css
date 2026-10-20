@@ -53,6 +53,12 @@ section[id] {
   scroll-margin-top: var(--header-height);
 }
 
+/* Positioning context for decorative side ornaments; clip prevents horizontal overflow without breaking sticky. */
+.page {
+  position: relative;
+  overflow-x: clip;
+}
+
 :focus-visible {
   outline: 3px solid var(--focus-color);
   outline-offset: 2px;
