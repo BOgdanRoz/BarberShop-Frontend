@@ -5,7 +5,6 @@ import Gallery from './sections/Gallery/Gallery'
 import Hero from './sections/Hero/Hero'
 import Portfolio from './sections/Portfolio/Portfolio'
 import Services from './sections/Services/Services'
-import Testimonials from './sections/Testimonials/Testimonials'
 import Footer from './components/Footer/Footer'
 import Header from './components/Header/Header'
 
@@ -23,7 +22,6 @@ function App() {
         <Barbers />
         <Gallery />
         <Portfolio />
-        <Testimonials />
         <FinalCta />
       </main>
       <Footer />
