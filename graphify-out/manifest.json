@@ -12,21 +12,21 @@
     "semantic_hash": ""
   },
   "package.json": {
-    "mtime": 1792419956.346887,
-    "seen": 1792507556.603264,
-    "ast_hash": "2ce327a951576eaa5b33774b5dbc07f0",
+    "mtime": 1792510301.1421852,
+    "seen": 1792510937.279646,
+    "ast_hash": "04b0f16a04db5bed99f8396fdff81da2",
     "semantic_hash": ""
   },
   "src/App.tsx": {
-    "mtime": 1792507472.7626255,
-    "seen": 1792507556.6032677,
-    "ast_hash": "89487c52b039031a456b196bfa2ff7c6",
+    "mtime": 1792512488.9118383,
+    "seen": 1792512694.9505866,
+    "ast_hash": "c9eff3180cdb961cd6dffe34ab7e8f60",
     "semantic_hash": ""
   },
   "src/components/BarberCard/BarberCard.tsx": {
-    "mtime": 1792508334.939077,
-    "seen": 1792508596.398165,
-    "ast_hash": "8e509a29213279836f8eac921fd20bf1",
+    "mtime": 1792510561.1028242,
+    "seen": 1792510937.2796545,
+    "ast_hash": "7a1310b30839aa29ecbfa651cf497b2f",
     "semantic_hash": ""
   },
   "src/components/Button/Button.tsx": {
@@ -36,21 +36,21 @@
     "semantic_hash": ""
   },
   "src/components/Footer/Footer.tsx": {
-    "mtime": 1792507437.0011241,
-    "seen": 1792507556.603275,
-    "ast_hash": "6b03baef25be962a0932527c758bfb1c",
+    "mtime": 1792512496.4029255,
+    "seen": 1792512694.9505985,
+    "ast_hash": "3e7b1eb11a67c61ad41106a2504500ab",
     "semantic_hash": ""
   },
   "src/components/Header/Header.tsx": {
-    "mtime": 1792508277.782959,
-    "seen": 1792508596.398175,
-    "ast_hash": "bd156266cf8bf54e9e5fbc6daf5c9b53",
+    "mtime": 1792512550.4812295,
+    "seen": 1792512694.9506009,
+    "ast_hash": "8b0897251803417553b4fc95f29a33d0",
     "semantic_hash": ""
   },
   "src/components/Logo/Logo.tsx": {
-    "mtime": 1792508255.5378287,
-    "seen": 1792508596.3981776,
-    "ast_hash": "557159fee3147316bbb5433a4ee55fb2",
+    "mtime": 1792510718.6132314,
+    "seen": 1792510937.2796683,
+    "ast_hash": "45081536bdf49fd958cec4fe5415efb0",
     "semantic_hash": ""
   },
   "src/components/MobileMenu/MobileMenu.tsx": {
@@ -72,15 +72,15 @@
     "semantic_hash": ""
   },
   "src/data/barbers.ts": {
-    "mtime": 1792507407.6946032,
-    "seen": 1792507556.6032877,
-    "ast_hash": "ca154a8b03eb3ddb7aa014453a677a91",
+    "mtime": 1792512601.9729683,
+    "seen": 1792512694.9506211,
+    "ast_hash": "9e7e0369d8f142eeb90bf4e621da0edf",
     "semantic_hash": ""
   },
   "src/data/photos.ts": {
-    "mtime": 1792508275.6162112,
-    "seen": 1792508596.398194,
-    "ast_hash": "362b4c4be46b91e5bdb7fb615f896ed7",
+    "mtime": 1792510475.368278,
+    "seen": 1792510937.279685,
+    "ast_hash": "2ef642c53b80c2aac586a04f31daf7ec",
     "semantic_hash": ""
   },
   "src/data/services.ts": {
@@ -90,15 +90,9 @@
     "semantic_hash": ""
   },
   "src/data/siteContent.ts": {
-    "mtime": 1792508272.4914122,
-    "seen": 1792508596.3981996,
-    "ast_hash": "c88efaca018c95d6bf9c7f1e5729b408",
-    "semantic_hash": ""
-  },
-  "src/data/testimonials.ts": {
-    "mtime": 1792507408.963716,
-    "seen": 1792507556.6032956,
-    "ast_hash": "eb6d4a8ed27f580ce918c0027ab9c19c",
+    "mtime": 1792511660.5214057,
+    "seen": 1792512036.0676575,
+    "ast_hash": "b7277cc5d8f4879946bb3440cbfaccd2",
     "semantic_hash": ""
   },
   "src/main.tsx": {
@@ -108,45 +102,39 @@
     "semantic_hash": ""
   },
   "src/sections/About/About.tsx": {
-    "mtime": 1792508328.9503515,
-    "seen": 1792508596.3982074,
-    "ast_hash": "d5a1804a75aabd44427204ebc3abc905",
+    "mtime": 1792512491.9065177,
+    "seen": 1792512694.9506347,
+    "ast_hash": "045e8b629fd9b86e03ef3f48d796c773",
     "semantic_hash": ""
   },
   "src/sections/Barbers/Barbers.tsx": {
-    "mtime": 1792508332.0569165,
-    "seen": 1792508596.3982103,
-    "ast_hash": "c8d6fe7cf215c08c4d5b2f5114eccc32",
+    "mtime": 1792512492.946937,
+    "seen": 1792512694.9506373,
+    "ast_hash": "6869c7b350b76058cc6f743007332820",
     "semantic_hash": ""
   },
   "src/sections/FinalCta/FinalCta.tsx": {
-    "mtime": 1792508354.294017,
-    "seen": 1792508596.3982127,
-    "ast_hash": "e5f250bebb83b0389cf5ce634b723ddd",
+    "mtime": 1792512495.9616096,
+    "seen": 1792512694.95064,
+    "ast_hash": "abc27d610c7023597a8183245de847e6",
     "semantic_hash": ""
   },
   "src/sections/Gallery/Gallery.tsx": {
-    "mtime": 1792508351.8602803,
-    "seen": 1792508596.398215,
-    "ast_hash": "e7d0a9e710a9ad32311fe9f511ba726d",
+    "mtime": 1792512493.8569238,
+    "seen": 1792512694.9506423,
+    "ast_hash": "afaf357c1444d7438f593888cec463cf",
     "semantic_hash": ""
   },
   "src/sections/Hero/Hero.tsx": {
-    "mtime": 1792508314.5044518,
-    "seen": 1792508596.3982174,
-    "ast_hash": "9c2410b1dd0477fd5a42c7d364260a14",
+    "mtime": 1792512489.9199233,
+    "seen": 1792512694.9506447,
+    "ast_hash": "9071574b8c21d458c6a9439f011b4166",
     "semantic_hash": ""
   },
   "src/sections/Services/Services.tsx": {
-    "mtime": 1792508299.5604122,
-    "seen": 1792508596.3982196,
-    "ast_hash": "7906b69ffe8e1604c2daacca9d7c0c16",
-    "semantic_hash": ""
-  },
-  "src/sections/Testimonials/Testimonials.tsx": {
-    "mtime": 1792508348.337782,
-    "seen": 1792508596.3982217,
-    "ast_hash": "e9e80ec4055550d3664deae801a8ebce",
+    "mtime": 1792512490.848773,
+    "seen": 1792512694.9506497,
+    "ast_hash": "cf52d1098e8708e618c6de2496f9e598",
     "semantic_hash": ""
   },
   "src/utils/formatPrice.ts": {
@@ -198,9 +186,9 @@
     "semantic_hash": ""
   },
   "index.html": {
-    "mtime": 1792508250.671703,
-    "seen": 1792508596.3982487,
-    "ast_hash": "987af0c4d85b0d28452381428d99bfcc",
+    "mtime": 1792510795.0333498,
+    "seen": 1792510937.2797482,
+    "ast_hash": "dd020621d86c6aa15cb073a82af73001",
     "semantic_hash": ""
   },
   "design references/barbersSectionExample.png": {
@@ -252,33 +240,9 @@
     "semantic_hash": ""
   },
   "public/favicon.svg": {
-    "mtime": 1792508256.3552854,
-    "seen": 1792508596.3982728,
-    "ast_hash": "cf37def8e47e3cd07c0e3ad6489fd7ca",
-    "semantic_hash": ""
-  },
-  "src/assets/images/barber-1.jpg": {
-    "mtime": 1792507276.7044384,
-    "seen": 1792507556.603355,
-    "ast_hash": "794768cfa6c874959ee4735f60b0ba4e",
-    "semantic_hash": ""
-  },
-  "src/assets/images/barber-2.jpg": {
-    "mtime": 1792507282.4512167,
-    "seen": 1792507556.6033568,
-    "ast_hash": "dd0af0b7664c69d287882d9743f97a94",
-    "semantic_hash": ""
-  },
-  "src/assets/images/barber-3.jpg": {
-    "mtime": 1792507278.7884462,
-    "seen": 1792507556.603359,
-    "ast_hash": "53585d68b35f59987bf29ce248dec171",
-    "semantic_hash": ""
-  },
-  "src/assets/images/gallery-2.jpg": {
-    "mtime": 1792507279.7263422,
-    "seen": 1792507556.603363,
-    "ast_hash": "d1f17047a4bfb9b301afd93246bbbce3",
+    "mtime": 1792510749.3410435,
+    "seen": 1792510937.2797768,
+    "ast_hash": "11496599f1d4ea138072fe01483e63b8",
     "semantic_hash": ""
   },
   "src/assets/images/hero-barber.jpg": {
@@ -293,16 +257,196 @@
     "ast_hash": "84c2c33baf475565bdfdbf5fd899c81b",
     "semantic_hash": ""
   },
-  "src/assets/images/gallery-barber-at-work.jpg": {
-    "mtime": 1792508224.505064,
-    "seen": 1792508596.398286,
-    "ast_hash": "e8c6f56b6c70cf9abeec705bf0b6b7e3",
+  "src/sections/Portfolio/Portfolio.tsx": {
+    "mtime": 1792512494.909865,
+    "seen": 1792512694.9506474,
+    "ast_hash": "e522f0271357343d5738ce1b6e557a03",
     "semantic_hash": ""
   },
-  "src/assets/images/gallery-toledo-1895.jpg": {
-    "mtime": 1792508223.845759,
-    "seen": 1792508596.398288,
-    "ast_hash": "2c7bdf8d64e017b72e922900c0381e0e",
+  "docs/IMAGE_CREDITS.md": {
+    "mtime": 1792510477.9339867,
+    "seen": 1792510937.2797458,
+    "ast_hash": "922593736777cca18fc271f1ed2b9ce0",
+    "semantic_hash": ""
+  },
+  "design references/logoDesignExamples.png": {
+    "mtime": 1792509979.3882053,
+    "seen": 1792510937.2797642,
+    "ast_hash": "cacd884cff0e53140cdb21aa8c21bd8a",
+    "semantic_hash": ""
+  },
+  "design references/typography2.png": {
+    "mtime": 1792509946.1072605,
+    "seen": 1792510937.2797716,
+    "ast_hash": "00c54e70449003c18029f870786faa43",
+    "semantic_hash": ""
+  },
+  "src/assets/images/atmosphere1.png": {
+    "mtime": 1792509103.4105854,
+    "seen": 1792510937.2797787,
+    "ast_hash": "dcc7025a18c715e2901c3f67c8d373fc",
+    "semantic_hash": ""
+  },
+  "src/assets/images/atmosphere2.png": {
+    "mtime": 1792509136.879177,
+    "seen": 1792510937.279781,
+    "ast_hash": "4d9b762ee583ba57ad2c347423e5a7ca",
+    "semantic_hash": ""
+  },
+  "src/assets/images/atmosphere3.png": {
+    "mtime": 1792509158.6244605,
+    "seen": 1792510937.2797832,
+    "ast_hash": "c5ff45313ad475b949e61e28ba1b1a00",
+    "semantic_hash": ""
+  },
+  "src/assets/images/barber1.png": {
+    "mtime": 1792508826.7226226,
+    "seen": 1792510937.2797852,
+    "ast_hash": "fa0aff39f494bbb47947713d90ce2587",
+    "semantic_hash": ""
+  },
+  "src/assets/images/barber2.png": {
+    "mtime": 1792508878.4906957,
+    "seen": 1792510937.2797875,
+    "ast_hash": "f45ec0e645c8b3d374b6b094a9702d56",
+    "semantic_hash": ""
+  },
+  "src/assets/images/barber3.png": {
+    "mtime": 1792508896.8680363,
+    "seen": 1792510937.2797897,
+    "ast_hash": "7c8c460531a8ab3fb6824d3f01a140c8",
+    "semantic_hash": ""
+  },
+  "src/assets/images/portfolio1.png": {
+    "mtime": 1792509247.8414967,
+    "seen": 1792510937.2797945,
+    "ast_hash": "0320540a64b8fa579f13723050cf980f",
+    "semantic_hash": ""
+  },
+  "src/assets/images/portfolio2.png": {
+    "mtime": 1792509269.6728792,
+    "seen": 1792510937.2797968,
+    "ast_hash": "90e75266dd6451aa0690e484043eec2f",
+    "semantic_hash": ""
+  },
+  "src/assets/images/portfolio3.png": {
+    "mtime": 1792509324.988225,
+    "seen": 1792510937.2797987,
+    "ast_hash": "3ac8a4b6265291ebff3b2eea48ccb77b",
+    "semantic_hash": ""
+  },
+  "src/assets/images/portfolio4.png": {
+    "mtime": 1792509349.926716,
+    "seen": 1792510937.279801,
+    "ast_hash": "ecaf6cb6a549f646cb7759003187cb74",
+    "semantic_hash": ""
+  },
+  "src/assets/images/portfolio5.png": {
+    "mtime": 1792509391.6978664,
+    "seen": 1792510937.2798028,
+    "ast_hash": "a9484a588dbf9162a864ef2882feaa12",
+    "semantic_hash": ""
+  },
+  "src/assets/images/portfolio6.png": {
+    "mtime": 1792509405.487485,
+    "seen": 1792510937.279805,
+    "ast_hash": "abb411d01c3b524f14a96bd23e6cfb4d",
+    "semantic_hash": ""
+  },
+  "src/assets/images/web/atmosphere1.jpg": {
+    "mtime": 1792510452.4310262,
+    "seen": 1792510937.279807,
+    "ast_hash": "1da8a11030364a09a1c6bc192048ffab",
+    "semantic_hash": ""
+  },
+  "src/assets/images/web/atmosphere2.jpg": {
+    "mtime": 1792510452.4610536,
+    "seen": 1792510937.279809,
+    "ast_hash": "bd31bba15224b6ca83bf8d4363bcdbc9",
+    "semantic_hash": ""
+  },
+  "src/assets/images/web/atmosphere3.jpg": {
+    "mtime": 1792510452.52631,
+    "seen": 1792510937.2798111,
+    "ast_hash": "b6e35319ba5f8d4b7438efc653997c8c",
+    "semantic_hash": ""
+  },
+  "src/assets/images/web/barber1.jpg": {
+    "mtime": 1792510452.546633,
+    "seen": 1792510937.279813,
+    "ast_hash": "0f07f9295572dc5cd65d7b390fecb3a7",
+    "semantic_hash": ""
+  },
+  "src/assets/images/web/barber2.jpg": {
+    "mtime": 1792510452.56765,
+    "seen": 1792510937.2798152,
+    "ast_hash": "5b47996c8fd40d169038f24a8281820b",
+    "semantic_hash": ""
+  },
+  "src/assets/images/web/barber3.jpg": {
+    "mtime": 1792510452.6243067,
+    "seen": 1792510937.279817,
+    "ast_hash": "806b700ecb56636b06e505e311625031",
+    "semantic_hash": ""
+  },
+  "src/assets/images/web/portfolio1.jpg": {
+    "mtime": 1792510452.647542,
+    "seen": 1792510937.2798193,
+    "ast_hash": "805b490b9fb66639f993ce94d4b24bcd",
+    "semantic_hash": ""
+  },
+  "src/assets/images/web/portfolio2.jpg": {
+    "mtime": 1792510452.656551,
+    "seen": 1792510937.2798214,
+    "ast_hash": "bfe52997b9e8fac4c8218a64951330aa",
+    "semantic_hash": ""
+  },
+  "src/assets/images/web/portfolio3.jpg": {
+    "mtime": 1792510452.6803463,
+    "seen": 1792510937.2798233,
+    "ast_hash": "de048c9088405fddcee03cf1e91efa61",
+    "semantic_hash": ""
+  },
+  "src/assets/images/web/portfolio4.jpg": {
+    "mtime": 1792510452.6933064,
+    "seen": 1792510937.2798254,
+    "ast_hash": "139a760b5330b584391c49f26d094194",
+    "semantic_hash": ""
+  },
+  "src/assets/images/web/portfolio5.jpg": {
+    "mtime": 1792510452.718647,
+    "seen": 1792510937.2798276,
+    "ast_hash": "5fee9d82c9cdad181fc2d490f5998cdd",
+    "semantic_hash": ""
+  },
+  "src/assets/images/web/portfolio6.jpg": {
+    "mtime": 1792510452.7404218,
+    "seen": 1792510937.2798295,
+    "ast_hash": "739f27d1cb86d53595a2e9aa6631e421",
+    "semantic_hash": ""
+  },
+  "src/components/SideDecor/SideDecor.tsx": {
+    "mtime": 1792512470.8382556,
+    "seen": 1792512694.9506185,
+    "ast_hash": "a71d1ab0085fd94f369c1f727b167fea",
+    "semantic_hash": ""
+  },
+  "design references/mininalistic decor photo/image1.png": {
+    "mtime": 1792511371.236485,
+    "seen": 1792512036.0677307,
+    "ast_hash": "269b213c925245ba3ad39f5078727f75",
+    "semantic_hash": ""
+  },
+  "design references/mininalistic decor photo/image2.png": {
+    "mtime": 1792511383.0819168,
+    "seen": 1792512036.0677333,
+    "ast_hash": "fa6722a9928f03f7d4313288746a885a",
+    "semantic_hash": ""
+  },
+  "design references/mininalistic decor photo/image3.png": {
+    "mtime": 1792511398.3040588,
+    "seen": 1792512036.0677352,
+    "ast_hash": "7dcf1f2d28233a211de9be69e63750a7",
     "semantic_hash": ""
   }
 }

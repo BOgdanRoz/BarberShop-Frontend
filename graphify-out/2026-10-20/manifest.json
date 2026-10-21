@@ -1,0 +1,20 @@
+{
+  "session-1103.json": {
+    "mtime": 1792399941.3918822,
+    "seen": 1792402609.6521206,
+    "ast_hash": "00778809bb37df91473f857147b3f12e",
+    "semantic_hash": "00778809bb37df91473f857147b3f12e"
+  },
+  "session-1115.json": {
+    "mtime": 1792400032.1393814,
+    "seen": 1792402609.652127,
+    "ast_hash": "b6eb47b2ff1e5877767982567f1a2b18",
+    "semantic_hash": "b6eb47b2ff1e5877767982567f1a2b18"
+  },
+  "AGENTS.md": {
+    "mtime": 1792399006.2306614,
+    "seen": 1792402609.6521304,
+    "ast_hash": "f36539ecc9af68f33ebd72770ce4a19e",
+    "semantic_hash": "f36539ecc9af68f33ebd72770ce4a19e"
+  }
+}

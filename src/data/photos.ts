@@ -1,4 +1,4 @@
-import heroBarber from '../assets/images/hero-barber.jpg'
+import heroBarber from '../assets/images/web/hero-barber.jpg'
 import atmosphere1 from '../assets/images/web/atmosphere1.jpg'
 import atmosphere2 from '../assets/images/web/atmosphere2.jpg'
 import atmosphere3 from '../assets/images/web/atmosphere3.jpg'
